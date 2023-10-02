@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CrapGUI.jnlp">
+  <information>
+    <title>CrapGUI</title>
+    <vendor>LauHeiYee</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CrapGUI.jar" size="20448" download="eager" />
+    <jar href="lib\gson-2.6.2.jar" size="229650" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="crapgui.CrapGUI"  name="CrapGUI" />
+  <update check="always"/>
+</jnlp>
